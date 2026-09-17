@@ -1,6 +1,37 @@
 ---
 title: "firstMarkdown"
-output: html_document
+output: github_document
 ---
 
 
+
+I'm an R Markdown document! 
+
+# Section 1
+
+Here's a **code chunk** that samples from 
+a _normal distribution_:
+
+```{r}
+samp = rnorm(100)
+length(samp)
+```
+
+# Section 2
+
+I can take the mean of the sample, too!
+The mean is `r mean(samp)`.
+
+```{r trying chunk names}
+
+```
+
+# header 1
+## header 2
+### header 3
+
+* bullet
+  * item 1
+  
+1. list 
+1. list 1
